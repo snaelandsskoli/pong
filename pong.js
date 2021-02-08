@@ -6,7 +6,7 @@ function setup() {
   createCanvas(400, 400);
   spadi1 = new Spadi(15,170,15,60)
   spadi2 = new Spadi(370,170,15,60)
-  bolti = new Bolti(200,200,15)
+
 }
 
 function draw() {
@@ -19,7 +19,7 @@ function draw() {
   bolti.draw()
   
 }
-
+// Boltinn, ætlum að búa hann til í dag
 class Bolti{
   constructor(){
    
@@ -32,7 +32,7 @@ class Bolti{
   }
 }
 
-
+// Spadinn
 class Spadi {
   
   constructor(x,y,b,h){
@@ -43,14 +43,10 @@ class Spadi {
     
   }
   
-  
   draw(){
     rect(this.x, this.y, this.b, this.h)
   }
-  
-  
-  
-  
+
   move(){
     if(this.x < width/2 ){
       if(keyIsDown(87) && this.y > 0){
