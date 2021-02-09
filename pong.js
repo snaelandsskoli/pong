@@ -1,6 +1,6 @@
 var spadi1
 var spadi2
-var bolti 
+
 
 function setup() {
   createCanvas(400, 400);
@@ -16,7 +16,7 @@ function draw() {
   spadi1.move()
   spadi2.move()
   
-  bolti.draw()
+
   
 }
 // Boltinn, ætlum að búa hann til í dag
