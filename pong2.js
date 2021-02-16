@@ -39,10 +39,10 @@ class Bolti{
   
   update(){  
     // Athuga hvort boltinn klessir á veggi
-    if(this.y <= 0){
+    if(this.y <= /*HVAÐ?*/){
       this.speedY *=-1
     }
-    else if(this.y >= 400){
+    else if(this.y >= /*HVAÐ?*/){
       this.speedY *= -1
     }
    // Athuga hvort boltinn fer í mark
